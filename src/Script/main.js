@@ -1,5 +1,3 @@
-// console.log("welcome to tic tio tio");
-
 
 document.addEventListener("DOMContentLoaded", () => {
     // let consider veriabale for audio file
@@ -24,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // change turn function 
     function changeTurn() {
-        console.log(chance);
         if (chance === "X") {
             chance = "0";
             // after x change turn x into 0
@@ -137,4 +134,3 @@ document.addEventListener("DOMContentLoaded", () => {
     // call a game reset game fucntion.
     resetGame();
 });
-
